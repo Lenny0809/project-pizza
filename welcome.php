@@ -1,4 +1,3 @@
-
 <?php
 session_start();
 if ($_SESSION['logueado'])
@@ -55,7 +54,7 @@ try{
     echo "</td>";
 
     echo "<td>";
-?>
+    ?>
     <a href="#" onclick="deleteProduct(<?php echo $row['id_product'] ?>)">Eliminar</a>
     <?php
     echo "</td>";
