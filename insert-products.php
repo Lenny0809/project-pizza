@@ -49,7 +49,7 @@
                         foreach($data as $row)
                         {
                             ?>
-                            <option><?php echo $row['category_name']?>
+                            <option values="<?php echo $row['id_category']?>"><?php echo $row['category_name']?>
                              </option>
                          <?php } 
                         ?>
